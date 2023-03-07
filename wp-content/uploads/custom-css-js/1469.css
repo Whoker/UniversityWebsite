@@ -1,0 +1,56 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*CSS for Sticky header*/
+.site-header {
+    position: fixed !important;
+    width: 100%;
+}
+
+
+/*Header-menu-item css before scroll*/
+.menu-item a{
+font-size:16px;
+font-weight:600;
+  color: #fff!important;
+}
+
+/*Header-menu-item css after scroll*/
+.menu-item.active a{
+font-size:16px;
+font-weight:600;
+  color: #000 !important;
+  transition: all 0.2s linear;
+}
+
+/*Header-menu-item css for hover*/
+.menu-item:hover a{
+  color:#ffdd00 !important;
+  transition: all 0.2s linear;
+}
+
+
+/*primary-header padding*/
+.ast-primary-header-bar{
+padding: 0px 0px !important;
+}
+
+/*Primary-transparent-header-CSS before scroll*/
+.ast-main-header-wrap {
+  width: 100%;
+  padding: 30px 0px !important;
+  background-size: 100%;
+}
+
+/*Primary-header CSS after scroll*/
+.ast-main-header-wrap.active {
+  width: 100%;
+  padding: 12px 0px !important;
+  background: rgba(255, 255, 255, 1) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-blend-mode:multiply;
+  background-size: 100%;
+  transition: all 0.5s ease-out;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}</style>
+<!-- end Simple Custom CSS and JS -->
